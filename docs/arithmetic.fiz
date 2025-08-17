@@ -1,0 +1,37 @@
+#bg{
+  background-fit: "contain"
+  shape: "cut-rectangle"
+}
+
+#plus{
+  #bg
+  background-image: "https://anthologen.github.io/fiz-gh-pages-template/arithmetic/plus.svg"
+}
+#minus{
+  #bg
+  background-image: "https://anthologen.github.io/fiz-gh-pages-template/arithmetic/minus.svg"
+}
+#cross{
+  #bg
+  background-image: "https://anthologen.github.io/fiz-gh-pages-template/arithmetic/cross.svg"
+}
+#obelus{
+  #bg
+  background-image: "https://anthologen.github.io/fiz-gh-pages-template/arithmetic/obelus.svg"
+}
+
+#white_bg{ background-color: "white" }
+#green_bg{ background-color: "lightgreen" }
+#red_bg{ background-color: "lightcoral" }
+#blue_bg{ background-color: "lightblue" }
+#orange_bg{ background-color: "lightsalmon" }
+
+%add{#white_bg #plus}
+%subtract{#white_bg #minus}
+%multiply{#white_bg #cross}
+%divide{#white_bg #obelus}
+
+%sum{#green_bg #plus}
+%difference{#red_bg #minus}
+%product{#blue_bg #cross}
+%quotient{#orange_bg #obelus}
