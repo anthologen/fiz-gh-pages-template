@@ -1,0 +1,11 @@
+@ "https://anthologen.github.io/fiz-gh-pages-template/arithmetic.fiz"
+
+add()
+subtract()
+multiply()
+divide()
+
+sum()
+difference()
+product()
+quotient()
