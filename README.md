@@ -7,7 +7,7 @@ fiz can import other fiz files via URL as long as the file can be fetched via HT
     1. In GitHub, open your repository's `Settings` > `Code and automation` > `Pages`.
     1. Under `Build and deployment`, set `Source` to `Deploy from a branch` and set `Branch` to `main` with folder `/docs`.
 1. Replace the example assets in `/docs` with your assets. Create subdirectories as necessary.
-1. Verify your fiz locally. You can serve the files locally using [`serve`](https://github.com/vercel/serve) or another similar tool. In your browser, check if the files import correctly. You will need to find and replace mentions of `https://<username>.github.io/<repo>/` with the local address (e.g. `http://localhost:3000/` by default for `serve`). Remember to revert these URLs back to the public GitHub Pages address before you publish.
+1. Verify your fiz locally. You can serve the files locally using [`serve`](https://github.com/vercel/serve) or another similar tool. In your browser, check if the files import correctly. You will need to find and replace mentions of `https://<username>.github.io/<repo>/` with the local address (e.g. `http://localhost:3000/` by default for `serve --cors .`). Remember to revert these URLs back to the public GitHub Pages address before you publish.
 1. Merge changes into main. This will publish to GitHub pages once merged.
 1. Check that your fiz imports correctly from the public address.
 1. Update this README to describe your repository.
