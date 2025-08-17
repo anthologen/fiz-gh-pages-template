@@ -1,0 +1,10 @@
+@ "https://anthologen.github.io/fiz-gh-pages-template/arithmetic.fiz"
+
+// example calculation: calorie deficit percentage
+calorie_intake = sum(breakfast(), lunch(), snack(), dinner())
+TDEE = sum(BMR(), NEAT(), TEF(), Exercise())
+calorie_diff = difference(calorie_intake, TDEE)
+calorie_deficit_rate = quotient(calorie_diff, TDEE)
+hundred = value(){label: "100"}
+calorie_deficit_rate_pct = product(calorie_deficit_rate, hundred)
+result(calorie_deficit_rate_pct){label: "Calorie Deficit %"}
